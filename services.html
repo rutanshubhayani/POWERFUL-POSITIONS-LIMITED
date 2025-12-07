@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Services - Premium Fitness Experience</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&amp;display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link href="assets/css/index.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <script id="tailwind-config" src="assets/js/tailwind-config.js"></script>
+</head>
+
+<body class="bg-background-dark font-display text-white antialiased grain overflow-x-hidden">
+    <div class="relative flex min-h-screen w-full flex-col group/design-root">
+        <div class="layout-container flex h-full grow flex-col">
+            <div class="px-4 md:px-6 lg:px-8 xl:px-10 flex flex-1 justify-center py-5">
+                <div class="layout-content-container flex flex-col max-w-8xl flex-1 w-full">
+                    <div data-include="assets/components/header.html"></div>
+                    
+                    <main class="flex flex-col gap-32 md:gap-48 lg:gap-56">
+                        <!-- Hero Section -->
+                        <section class="component-container mt-20 md:mt-32 relative" data-aos="fade-up">
+                            <!-- Background decoration -->
+                            <div class="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl floating-animation"></div>
+                            <div class="absolute bottom-20 right-10 w-96 h-96 bg-secondary/10 rounded-full blur-3xl floating-animation" style="animation-delay: 2s;"></div>
+                            
+                            <div class="text-center mx-auto max-w-5xl relative z-10">
+                                <div class="fade-in-up">
+                                    <div class="inline-flex items-center gap-2 glass-effect rounded-full px-4 py-2 mb-8 border border-white/20">
+                                        <span class="w-2 h-2 bg-primary rounded-full animate-pulse"></span>
+                                        <span class="text-sm font-medium text-white/90">Complete Wellness Solutions</span>
+                                    </div>
+                                    <h1 class="text-white text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-none mb-6">
+                                        <span class="block">Our</span>
+                                        <span class="block gradient-text">Services</span>
+                                    </h1>
+                                </div>
+                                <div class="fade-in-up stagger-delay-1">
+                                    <h2 class="text-white/80 text-lg md:text-2xl font-light leading-relaxed max-w-3xl mx-auto mt-8">
+                                        Comprehensive fitness solutions designed to transform your body, mind, and lifestyle through expert guidance and cutting-edge facilities.
+                                    </h2>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Services Grid -->
+                        <section class="component-container relative" id="classes" data-aos="fade-up" data-aos-delay="100">
+                            <!-- Background pattern -->
+                            <div class="absolute inset-0 overflow-hidden">
+                                <div class="absolute top-20 left-20 w-64 h-64 border border-white/5 rounded-full"></div>
+                                <div class="absolute bottom-20 right-20 w-96 h-96 border border-white/5 rounded-full"></div>
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative z-10">
+                                <!-- Personal Training -->
+                                <div class="group glass-effect rounded-3xl p-8 hover:bg-white/10 transition-all duration-500 hover:scale-105 fade-in-up">
+                                    <div class="w-20 h-20 bg-gradient-to-br from-primary to-secondary rounded-3xl flex items-center justify-center mb-6 group-hover:shadow-lg group-hover:shadow-primary/25 transition-all duration-300">
+                                        <span class="material-symbols-outlined text-3xl text-white">fitness_center</span>
+                                    </div>
+                                    <h3 class="text-white text-2xl font-bold mb-4">Personal Training</h3>
+                                    <p class="text-white/70 text-base leading-relaxed mb-6">
+                                        One-on-one coaching with certified experts who design programs tailored to your unique goals, body mechanics, and lifestyle.
+                                    </p>
+                                    <div class="space-y-3 mb-8">
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-primary rounded-full"></div>
+                                            <span class="text-white/80 text-sm">Customized workout plans</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-primary rounded-full"></div>
+                                            <span class="text-white/80 text-sm">Progress tracking & analytics</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-primary rounded-full"></div>
+                                            <span class="text-white/80 text-sm">Injury prevention protocols</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-primary rounded-full"></div>
+                                            <span class="text-white/80 text-sm">24/7 support access</span>
+                                        </div>
+                                    </div>
+                                    <div class="border-t border-white/10 pt-6">
+                                        <div class="flex justify-between items-center mb-4">
+                                            <span class="text-white/60 text-sm">Starting from</span>
+                                            <span class="text-white text-xl font-bold">$150/session</span>
+                                        </div>
+                                        <button class="w-full py-3 px-6 bg-gradient-to-r from-primary to-secondary text-white font-semibold rounded-full hover:scale-105 transition-all duration-300">
+                                            Book Session
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- Group Classes -->
+                                <div class="group glass-effect rounded-3xl p-8 hover:bg-white/10 transition-all duration-500 hover:scale-105 fade-in-up stagger-delay-1">
+                                    <div class="w-20 h-20 bg-gradient-to-br from-secondary to-accent rounded-3xl flex items-center justify-center mb-6 group-hover:shadow-lg group-hover:shadow-secondary/25 transition-all duration-300">
+                                        <span class="material-symbols-outlined text-3xl text-white">groups</span>
+                                    </div>
+                                    <h3 class="text-white text-2xl font-bold mb-4">Group Classes</h3>
+                                    <p class="text-white/70 text-base leading-relaxed mb-6">
+                                        High-energy sessions that build community while pushing boundaries. From HIIT to mindful yoga flows.
+                                    </p>
+                                    <div class="space-y-3 mb-8">
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                                            <span class="text-white/80 text-sm">HIIT & Strength Training</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                                            <span class="text-white/80 text-sm">Yoga & Pilates</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                                            <span class="text-white/80 text-sm">Dance & Cardio</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                                            <span class="text-white/80 text-sm">Specialized workshops</span>
+                                        </div>
+                                    </div>
+                                    <div class="border-t border-white/10 pt-6">
+                                        <div class="flex justify-between items-center mb-4">
+                                            <span class="text-white/60 text-sm">Unlimited access</span>
+                                            <span class="text-white text-xl font-bold">$89/month</span>
+                                        </div>
+                                        <button class="w-full py-3 px-6 bg-gradient-to-r from-secondary to-accent text-white font-semibold rounded-full hover:scale-105 transition-all duration-300">
+                                            Join Classes
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- Nutrition Coaching -->
+                                <div class="group glass-effect rounded-3xl p-8 hover:bg-white/10 transition-all duration-500 hover:scale-105 fade-in-up stagger-delay-2">
+                                    <div class="w-20 h-20 bg-gradient-to-br from-accent to-primary rounded-3xl flex items-center justify-center mb-6 group-hover:shadow-lg group-hover:shadow-accent/25 transition-all duration-300">
+                                        <span class="material-symbols-outlined text-3xl text-white">restaurant</span>
+                                    </div>
+                                    <h3 class="text-white text-2xl font-bold mb-4">Nutrition Coaching</h3>
+                                    <p class="text-white/70 text-base leading-relaxed mb-6">
+                                        Science-backed nutrition strategies that complement your training for optimal results and sustained energy.
+                                    </p>
+                                    <div class="space-y-3 mb-8">
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-accent rounded-full"></div>
+                                            <span class="text-white/80 text-sm">Personalized meal plans</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-accent rounded-full"></div>
+                                            <span class="text-white/80 text-sm">Supplement guidance</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-accent rounded-full"></div>
+                                            <span class="text-white/80 text-sm">Body composition analysis</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-accent rounded-full"></div>
+                                            <span class="text-white/80 text-sm">Weekly check-ins</span>
+                                        </div>
+                                    </div>
+                                    <div class="border-t border-white/10 pt-6">
+                                        <div class="flex justify-between items-center mb-4">
+                                            <span class="text-white/60 text-sm">Monthly program</span>
+                                            <span class="text-white text-xl font-bold">$199/month</span>
+                                        </div>
+                                        <button class="w-full py-3 px-6 bg-gradient-to-r from-accent to-primary text-white font-semibold rounded-full hover:scale-105 transition-all duration-300">
+                                            Start Program
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- Recovery & Wellness -->
+                                <div class="group glass-effect rounded-3xl p-8 hover:bg-white/10 transition-all duration-500 hover:scale-105 fade-in-up stagger-delay-3">
+                                    <div class="w-20 h-20 bg-gradient-to-br from-primary to-secondary rounded-3xl flex items-center justify-center mb-6 group-hover:shadow-lg group-hover:shadow-primary/25 transition-all duration-300">
+                                        <span class="material-symbols-outlined text-3xl text-white">spa</span>
+                                    </div>
+                                    <h3 class="text-white text-2xl font-bold mb-4">Recovery & Wellness</h3>
+                                    <p class="text-white/70 text-base leading-relaxed mb-6">
+                                        Premium recovery facilities including infrared saunas, cryotherapy, and therapeutic massage services.
+                                    </p>
+                                    <div class="space-y-3 mb-8">
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-primary rounded-full"></div>
+                                            <span class="text-white/80 text-sm">Infrared sauna sessions</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-primary rounded-full"></div>
+                                            <span class="text-white/80 text-sm">Cryotherapy chambers</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-primary rounded-full"></div>
+                                            <span class="text-white/80 text-sm">Therapeutic massage</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-primary rounded-full"></div>
+                                            <span class="text-white/80 text-sm">Compression therapy</span>
+                                        </div>
+                                    </div>
+                                    <div class="border-t border-white/10 pt-6">
+                                        <div class="flex justify-between items-center mb-4">
+                                            <span class="text-white/60 text-sm">Per session</span>
+                                            <span class="text-white text-xl font-bold">$75+</span>
+                                        </div>
+                                        <button class="w-full py-3 px-6 bg-gradient-to-r from-primary to-secondary text-white font-semibold rounded-full hover:scale-105 transition-all duration-300">
+                                            Book Recovery
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- Athletic Performance -->
+                                <div class="group glass-effect rounded-3xl p-8 hover:bg-white/10 transition-all duration-500 hover:scale-105 fade-in-up stagger-delay-4">
+                                    <div class="w-20 h-20 bg-gradient-to-br from-secondary to-primary rounded-3xl flex items-center justify-center mb-6 group-hover:shadow-lg group-hover:shadow-secondary/25 transition-all duration-300">
+                                        <span class="material-symbols-outlined text-3xl text-white">sports</span>
+                                    </div>
+                                    <h3 class="text-white text-2xl font-bold mb-4">Athletic Performance</h3>
+                                    <p class="text-white/70 text-base leading-relaxed mb-6">
+                                        Elite training programs designed for athletes and high performers looking to maximize their potential.
+                                    </p>
+                                    <div class="space-y-3 mb-8">
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                                            <span class="text-white/80 text-sm">Sport-specific training</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                                            <span class="text-white/80 text-sm">Performance testing</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                                            <span class="text-white/80 text-sm">Movement analysis</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                                            <span class="text-white/80 text-sm">Mental conditioning</span>
+                                        </div>
+                                    </div>
+                                    <div class="border-t border-white/10 pt-6">
+                                        <div class="flex justify-between items-center mb-4">
+                                            <span class="text-white/60 text-sm">Elite program</span>
+                                            <span class="text-white text-xl font-bold">$299/month</span>
+                                        </div>
+                                        <button class="w-full py-3 px-6 bg-gradient-to-r from-secondary to-primary text-white font-semibold rounded-full hover:scale-105 transition-all duration-300">
+                                            Elite Training
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- Corporate Wellness -->
+                                <div class="group glass-effect rounded-3xl p-8 hover:bg-white/10 transition-all duration-500 hover:scale-105 fade-in-up stagger-delay-5">
+                                    <div class="w-20 h-20 bg-gradient-to-br from-accent to-secondary rounded-3xl flex items-center justify-center mb-6 group-hover:shadow-lg group-hover:shadow-accent/25 transition-all duration-300">
+                                        <span class="material-symbols-outlined text-3xl text-white">business</span>
+                                    </div>
+                                    <h3 class="text-white text-2xl font-bold mb-4">Corporate Wellness</h3>
+                                    <p class="text-white/70 text-base leading-relaxed mb-6">
+                                        Comprehensive wellness programs designed to improve employee health, productivity, and workplace satisfaction.
+                                    </p>
+                                    <div class="space-y-3 mb-8">
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-accent rounded-full"></div>
+                                            <span class="text-white/80 text-sm">On-site fitness classes</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-accent rounded-full"></div>
+                                            <span class="text-white/80 text-sm">Health assessments</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-accent rounded-full"></div>
+                                            <span class="text-white/80 text-sm">Stress management workshops</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <div class="w-2 h-2 bg-accent rounded-full"></div>
+                                            <span class="text-white/80 text-sm">Corporate memberships</span>
+                                        </div>
+                                    </div>
+                                    <div class="border-t border-white/10 pt-6">
+                                        <div class="flex justify-between items-center mb-4">
+                                            <span class="text-white/60 text-sm">Custom packages</span>
+                                            <span class="text-white text-xl font-bold">Contact us</span>
+                                        </div>
+                                        <button class="w-full py-3 px-6 bg-gradient-to-r from-accent to-secondary text-white font-semibold rounded-full hover:scale-105 transition-all duration-300">
+                                            Get Quote
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Membership Tiers -->
+                        <section class="component-container relative" id="membership-plans" data-aos="fade-up" data-aos-delay="150">
+                            <div class="text-center mb-16 relative z-10">
+                                <div class="fade-in-up">
+                                    <span class="inline-block px-3 py-1 bg-primary/20 text-primary rounded-full text-sm font-medium mb-4">
+                                        Membership Plans
+                                    </span>
+                                    <h2 class="text-white text-4xl md:text-6xl font-bold tracking-tight mb-6">
+                                        Choose Your <span class="gradient-text">Journey</span>
+                                    </h2>
+                                    <p class="text-white/70 text-lg max-w-3xl mx-auto leading-relaxed">
+                                        Flexible membership options designed to fit your lifestyle and fitness goals.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative z-10">
+                                <!-- Basic Plan -->
+                                <div class="glass-effect rounded-3xl p-8 border border-white/10 fade-in-up">
+                                    <div class="text-center mb-8">
+                                        <h3 class="text-white text-2xl font-bold mb-2">Essential</h3>
+                                        <p class="text-white/60 text-sm mb-6">Perfect for getting started</p>
+                                        <div class="text-center">
+                                            <span class="text-5xl font-black text-white">$89</span>
+                                            <span class="text-white/60">/month</span>
+                                        </div>
+                                    </div>
+                                    <div class="space-y-4 mb-8">
+                                        <div class="flex items-center gap-3">
+                                            <span class="material-symbols-outlined text-green-400 text-lg">check</span>
+                                            <span class="text-white/80">24/7 gym access</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <span class="material-symbols-outlined text-green-400 text-lg">check</span>
+                                            <span class="text-white/80">Basic equipment access</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <span class="material-symbols-outlined text-green-400 text-lg">check</span>
+                                            <span class="text-white/80">Locker room facilities</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <span class="material-symbols-outlined text-green-400 text-lg">check</span>
+                                            <span class="text-white/80">Fitness app access</span>
+                                        </div>
+                                    </div>
+                                    <button class="w-full py-3 px-6 border border-white/20 text-white font-semibold rounded-full hover:bg-white/10 transition-all duration-300">
+                                        Get Started
+                                    </button>
+                                </div>
+
+                                <!-- Premium Plan -->
+                                <div class="relative glass-effect rounded-3xl p-8 border-2 border-primary/50 fade-in-up stagger-delay-1 scale-105">
+                                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                                        <span class="bg-gradient-to-r from-primary to-secondary text-white px-4 py-1 rounded-full text-sm font-medium">
+                                            Most Popular
+                                        </span>
+                                    </div>
+                                    <div class="text-center mb-8">
+                                        <h3 class="text-white text-2xl font-bold mb-2">Premium</h3>
+                                        <p class="text-white/60 text-sm mb-6">Complete fitness experience</p>
+                                        <div class="text-center">
+                                            <span class="text-5xl font-black text-white">$149</span>
+                                            <span class="text-white/60">/month</span>
+                                        </div>
+                                    </div>
+                                    <div class="space-y-4 mb-8">
+                                        <div class="flex items-center gap-3">
+                                            <span class="material-symbols-outlined text-green-400 text-lg">check</span>
+                                            <span class="text-white/80">Everything in Essential</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <span class="material-symbols-outlined text-green-400 text-lg">check</span>
+                                            <span class="text-white/80">Unlimited group classes</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <span class="material-symbols-outlined text-green-400 text-lg">check</span>
+                                            <span class="text-white/80">Pool & spa access</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <span class="material-symbols-outlined text-green-400 text-lg">check</span>
+                                            <span class="text-white/80">2 personal training sessions</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <span class="material-symbols-outlined text-green-400 text-lg">check</span>
+                                            <span class="text-white/80">Nutrition consultation</span>
+                                        </div>
+                                    </div>
+                                    <button class="w-full py-3 px-6 bg-gradient-to-r from-primary to-secondary text-white font-semibold rounded-full hover:scale-105 transition-all duration-300">
+                                        Choose Premium
+                                    </button>
+                                </div>
+
+                                <!-- Elite Plan -->
+                                <div class="glass-effect rounded-3xl p-8 border border-white/10 fade-in-up stagger-delay-2">
+                                    <div class="text-center mb-8">
+                                        <h3 class="text-white text-2xl font-bold mb-2">Elite</h3>
+                                        <p class="text-white/60 text-sm mb-6">Ultimate luxury experience</p>
+                                        <div class="text-center">
+                                            <span class="text-5xl font-black text-white">$299</span>
+                                            <span class="text-white/60">/month</span>
+                                        </div>
+                                    </div>
+                                    <div class="space-y-4 mb-8">
+                                        <div class="flex items-center gap-3">
+                                            <span class="material-symbols-outlined text-green-400 text-lg">check</span>
+                                            <span class="text-white/80">Everything in Premium</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <span class="material-symbols-outlined text-green-400 text-lg">check</span>
+                                            <span class="text-white/80">Unlimited personal training</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <span class="material-symbols-outlined text-green-400 text-lg">check</span>
+                                            <span class="text-white/80">Recovery suite access</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <span class="material-symbols-outlined text-green-400 text-lg">check</span>
+                                            <span class="text-white/80">Concierge services</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <span class="material-symbols-outlined text-green-400 text-lg">check</span>
+                                            <span class="text-white/80">Private training space</span>
+                                        </div>
+                                    </div>
+                                    <button class="w-full py-3 px-6 border border-white/20 text-white font-semibold rounded-full hover:bg-white/10 transition-all duration-300">
+                                        Go Elite
+                                    </button>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- CTA Section -->
+                        <section class="component-container" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="relative overflow-hidden rounded-3xl p-12 md:p-20 text-center cta-promo-card">
+                                <div class="absolute inset-0 opacity-10">
+                                    <div class="absolute top-10 left-10 w-32 h-32 border-2 border-white rounded-full floating-animation"></div>
+                                    <div class="absolute top-20 right-20 w-48 h-48 border border-white rounded-full floating-animation" style="animation-delay: 1s;"></div>
+                                    <div class="absolute bottom-16 left-1/4 w-24 h-24 border-2 border-white rounded-full floating-animation" style="animation-delay: 2s;"></div>
+                                </div>
+                                
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-black/10"></div>
+                                
+                                <div class="relative z-10 fade-in-up">
+                                    <div class="mb-8">
+                                        <span class="inline-block px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-white/90 text-sm font-medium mb-6">
+                                            ✨ Start Today
+                                        </span>
+                                        <h2 class="text-white text-4xl md:text-6xl lg:text-7xl font-black tracking-tight leading-tight mb-6">
+                                            Ready to <span class="relative">
+                                                Begin?
+                                                <div class="absolute -bottom-2 left-0 right-0 h-1 bg-white/50 rounded-full"></div>
+                                            </span>
+                                        </h2>
+                                        <p class="text-white/90 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+                                            Book a consultation with our experts and take the first step towards your transformation.
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
+                                        <button class="group relative overflow-hidden bg-white text-primary font-bold py-4 px-10 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-white/25 min-w-[200px]">
+                                            <span class="relative z-10 flex items-center justify-center gap-2">
+                                                Book Consultation
+                                                <span class="material-symbols-outlined text-sm transition-transform duration-300 group-hover:translate-x-1">arrow_forward</span>
+                                            </span>
+                                        </button>
+                                        
+                                        <button class="group flex items-center justify-center gap-3 py-4 px-8 text-white border-2 border-white/30 rounded-full transition-all duration-300 hover:bg-white/10 hover:border-white/60 hover:scale-105">
+                                            <div class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/30 transition-colors">
+                                                <span class="material-symbols-outlined text-sm">call</span>
+                                            </div>
+                                            <span class="font-medium">Schedule Tour</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </main>
+                    
+                    <div class="component-container" data-include="assets/components/footer.html"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 900,
+            once: true,
+            easing: 'ease-out-cubic'
+        });
+    </script>
+    <script src="assets/js/components.js"></script>
+</body>
+
+</html>

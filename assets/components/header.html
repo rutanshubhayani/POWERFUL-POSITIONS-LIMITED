@@ -1,0 +1,83 @@
+<header class="flex items-center justify-between whitespace-nowrap px-6 py-4 sticky top-4 mx-auto w-[calc(100%-2rem)] max-w-7xl glass-effect z-50 rounded-2xl border border-white/10 backdrop-blur-2xl">
+    <a href="index.html" class="flex items-center gap-4 text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/70 rounded-2xl">
+        <div class="relative group">
+            <div class="size-8 text-primary group-hover:text-secondary transition-colors duration-300">
+                <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z" fill="currentColor"></path>
+                </svg>
+            </div>
+            <div class="absolute inset-0 bg-primary/20 rounded-full scale-0 group-hover:scale-150 transition-transform duration-500 -z-10"></div>
+        </div>
+        <div class="leading-tight">
+            <p class="text-[10px] uppercase tracking-[0.6em] text-white/60">Powerful</p>
+            <p class="text-2xl font-black tracking-tight text-white">Positions</p>
+            <p class="text-[11px] uppercase tracking-[0.35em] text-primary font-semibold">Limited</p>
+        </div>
+    </a>
+    
+    <nav class="hidden lg:flex flex-1 justify-center items-center">
+        <div class="flex items-center gap-8 bg-white/5 rounded-full px-6 py-3 backdrop-blur-sm border border-white/10">
+            <a class="header-nav-link text-white/80 hover:text-white transition-all duration-300 text-sm font-medium relative group px-3 py-1" href="index.html">
+                Home
+                <span class="header-nav-indicator absolute bottom-0 left-0 w-0 h-px bg-gradient-to-r from-primary to-secondary group-hover:w-full transition-all duration-300"></span>
+            </a>
+            <a class="header-nav-link text-white/80 hover:text-white transition-all duration-300 text-sm font-medium relative group px-3 py-1" href="services.html">
+                Services
+                <span class="header-nav-indicator absolute bottom-0 left-0 w-0 h-px bg-gradient-to-r from-primary to-secondary group-hover:w-full transition-all duration-300"></span>
+            </a>
+            <a class="header-nav-link text-white/80 hover:text-white transition-all duration-300 text-sm font-medium relative group px-3 py-1" href="about-us.html">
+                About Us
+                <span class="header-nav-indicator absolute bottom-0 left-0 w-0 h-px bg-gradient-to-r from-primary to-secondary group-hover:w-full transition-all duration-300"></span>
+            </a>
+            <a class="header-nav-link text-white/80 hover:text-white transition-all duration-300 text-sm font-medium relative group px-3 py-1" href="contact.html">
+                Contact
+                <span class="header-nav-indicator absolute bottom-0 left-0 w-0 h-px bg-gradient-to-r from-primary to-secondary group-hover:w-full transition-all duration-300"></span>
+            </a>
+        </div>
+    </nav>
+    
+    <div class="hidden lg:flex items-center gap-4">
+
+        <a href="services.html#membership-plans" class="relative overflow-hidden bg-gradient-to-r from-primary to-secondary text-white font-bold py-3 px-6 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-primary/25 group">
+            <span class="relative z-10">Join Now</span>
+            <div class="absolute inset-0 bg-gradient-to-r from-secondary to-primary opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        </a>
+    </div>
+    
+    <!-- Mobile menu button -->
+    <div class="lg:hidden">
+        <button class="text-white p-2 hover:bg-white/10 rounded-lg transition-colors duration-300" data-mobile-toggle>
+            <span class="material-symbols-outlined">menu</span>
+        </button>
+    </div>
+</header>
+<div class="lg:hidden fixed inset-0 bg-black/60 backdrop-blur-sm z-40 hidden" data-mobile-overlay></div>
+<div class="lg:hidden fixed top-24 left-4 right-4 rounded-2xl border border-white/10 bg-[#111726]/95 p-6 z-50 hidden" data-mobile-menu>
+    <div class="flex items-center justify-between mb-6">
+        <p class="text-white/80 text-sm uppercase tracking-[0.3em]">Navigate</p>
+        <button class="text-white/70 hover:text-white transition-colors duration-200" data-mobile-close>
+            <span class="material-symbols-outlined">close</span>
+        </button>
+    </div>
+    <nav class="flex flex-col gap-3">
+        <a class="header-nav-link flex items-center justify-between text-white/80 text-base font-semibold px-4 py-3 rounded-xl bg-white/5 border border-white/10" href="index.html">
+            <span>Home</span>
+            <span class="material-symbols-outlined text-sm text-white/40">north_east</span>
+        </a>
+        <a class="header-nav-link flex items-center justify-between text-white/80 text-base font-semibold px-4 py-3 rounded-xl bg-white/5 border border-white/10" href="services.html">
+            <span>Services</span>
+            <span class="material-symbols-outlined text-sm text-white/40">north_east</span>
+        </a>
+        <a class="header-nav-link flex items-center justify-between text-white/80 text-base font-semibold px-4 py-3 rounded-xl bg-white/5 border border-white/10" href="about-us.html">
+            <span>About Us</span>
+            <span class="material-symbols-outlined text-sm text-white/40">north_east</span>
+        </a>
+        <a class="header-nav-link flex items-center justify-between text-white/80 text-base font-semibold px-4 py-3 rounded-xl bg-white/5 border border-white/10" href="contact.html">
+            <span>Contact</span>
+            <span class="material-symbols-outlined text-sm text-white/40">north_east</span>
+        </a>
+    </nav>
+    <button class="w-full mt-6 relative overflow-hidden bg-gradient-to-r from-primary to-secondary text-white font-bold py-3.5 px-6 rounded-2xl transition-all duration-300 hover:scale-[1.02]">
+        Join Now
+    </button>
+</div>

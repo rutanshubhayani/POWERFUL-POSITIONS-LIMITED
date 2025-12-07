@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Contact Us - Premium Fitness Experience</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&amp;display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link href="assets/css/index.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <script id="tailwind-config" src="assets/js/tailwind-config.js"></script>
+</head>
+
+<body class="bg-background-dark font-display text-white antialiased grain overflow-x-hidden">
+    <div class="relative flex min-h-screen w-full flex-col group/design-root">
+        <div class="layout-container flex h-full grow flex-col">
+            <div class="px-4 md:px-6 lg:px-8 xl:px-10 flex flex-1 justify-center py-5">
+                <div class="layout-content-container flex flex-col max-w-8xl flex-1 w-full">
+                    <div class="component-container" data-include="assets/components/header.html"></div>
+                    
+                    <main class="flex flex-col gap-32 md:gap-48 lg:gap-56">
+                        <!-- Hero Section -->
+                        <section class="component-container mt-20 md:mt-32 relative" data-aos="fade-up">
+                            <!-- Background decoration -->
+                            <div class="absolute top-20 left-10 w-72 h-72 bg-accent/10 rounded-full blur-3xl floating-animation"></div>
+                            <div class="absolute bottom-20 right-10 w-96 h-96 bg-primary/10 rounded-full blur-3xl floating-animation" style="animation-delay: 2s;"></div>
+                            
+                            <div class="text-center mx-auto max-w-5xl relative z-10">
+                                <div class="fade-in-up">
+                                    <div class="inline-flex items-center gap-2 glass-effect rounded-full px-4 py-2 mb-8 border border-white/20">
+                                        <span class="w-2 h-2 bg-accent rounded-full animate-pulse"></span>
+                                        <span class="text-sm font-medium text-white/90">Get In Touch</span>
+                                    </div>
+                                    <h1 class="text-white text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-none mb-6">
+                                        <span class="block">Contact</span>
+                                        <span class="block gradient-text">Us</span>
+                                    </h1>
+                                </div>
+                                <div class="fade-in-up stagger-delay-1">
+                                    <h2 class="text-white/80 text-lg md:text-2xl font-light leading-relaxed max-w-3xl mx-auto mt-8">
+                                        Ready to transform your fitness journey? We're here to help you every step of the way. Reach out to our expert team today.
+                                    </h2>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Contact Form & Info -->
+                        <section class="component-container relative" id="contact-form" data-aos="fade-up" data-aos-delay="100">
+                            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+                                <!-- Contact Form -->
+                                <div class="fade-in-up">
+                                    <div class="glass-effect rounded-3xl p-8 md:p-12">
+                                        <div class="mb-8">
+                                            <h2 class="text-white text-3xl md:text-4xl font-bold tracking-tight mb-4">
+                                                Send us a <span class="gradient-text">Message</span>
+                                            </h2>
+                                            <p class="text-white/70 text-lg leading-relaxed">
+                                                Fill out the form below and we'll get back to you within 24 hours.
+                                            </p>
+                                        </div>
+
+                                        <form class="space-y-6">
+                                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                                <div>
+                                                    <label class="block text-white/80 text-sm font-medium mb-3">First Name</label>
+                                                    <input type="text" class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder:text-white/50 focus:border-primary focus:ring-2 focus:ring-primary/20 focus:outline-none transition-all duration-300" placeholder="John">
+                                                </div>
+                                                <div>
+                                                    <label class="block text-white/80 text-sm font-medium mb-3">Last Name</label>
+                                                    <input type="text" class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder:text-white/50 focus:border-primary focus:ring-2 focus:ring-primary/20 focus:outline-none transition-all duration-300" placeholder="Doe">
+                                                </div>
+                                            </div>
+                                            
+                                            <div>
+                                                <label class="block text-white/80 text-sm font-medium mb-3">Email Address</label>
+                                                <input type="email" class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder:text-white/50 focus:border-primary focus:ring-2 focus:ring-primary/20 focus:outline-none transition-all duration-300" placeholder="john@example.com">
+                                            </div>
+                                            
+                                            <div>
+                                                <label class="block text-white/80 text-sm font-medium mb-3">Phone Number</label>
+                                                <input type="tel" class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder:text-white/50 focus:border-primary focus:ring-2 focus:ring-primary/20 focus:outline-none transition-all duration-300" placeholder="+1 (555) 123-4567">
+                                            </div>
+                                            
+                                            <div>
+                                                <label class="block text-white/80 text-sm font-medium mb-3">Interested In</label>
+                                                <select class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white focus:border-primary focus:ring-2 focus:ring-primary/20 focus:outline-none transition-all duration-300">
+                                                    <option value="">Select a service</option>
+                                                    <option value="membership">Membership Information</option>
+                                                    <option value="personal-training">Personal Training</option>
+                                                    <option value="group-classes">Group Classes</option>
+                                                    <option value="nutrition">Nutrition Coaching</option>
+                                                    <option value="corporate">Corporate Wellness</option>
+                                                    <option value="other">Other</option>
+                                                </select>
+                                            </div>
+                                            
+                                            <div>
+                                                <label class="block text-white/80 text-sm font-medium mb-3">Message</label>
+                                                <textarea rows="5" class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder:text-white/50 focus:border-primary focus:ring-2 focus:ring-primary/20 focus:outline-none transition-all duration-300 resize-none" placeholder="Tell us about your fitness goals and how we can help..."></textarea>
+                                            </div>
+                                            
+                                            <button type="submit" class="w-full py-4 px-8 bg-gradient-to-r from-primary to-secondary text-white font-bold rounded-xl hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-primary/25">
+                                                Send Message
+                                                <span class="material-symbols-outlined text-sm ml-2">send</span>
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <!-- Contact Information -->
+                                <div class="space-y-8 fade-in-up stagger-delay-1">
+                                    <!-- Contact Details -->
+                                    <div class="glass-effect rounded-3xl p-8">
+                                        <h3 class="text-white text-2xl font-bold mb-6">Get in Touch</h3>
+                                        <div class="space-y-6">
+                                            <div class="flex items-start gap-4">
+                                                <div class="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center flex-shrink-0">
+                                                    <span class="material-symbols-outlined text-white">location_on</span>
+                                                </div>
+                                                <div>
+                                                    <h4 class="text-white font-semibold mb-1">Visit Our Facility</h4>
+                                                    <p class="text-white/70">
+                                                        123 Fitness Boulevard<br>
+                                                        Downtown District, NY 10001<br>
+                                                        United States
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="flex items-start gap-4">
+                                                <div class="w-12 h-12 bg-gradient-to-br from-secondary to-accent rounded-xl flex items-center justify-center flex-shrink-0">
+                                                    <span class="material-symbols-outlined text-white">phone</span>
+                                                </div>
+                                                <div>
+                                                    <h4 class="text-white font-semibold mb-1">Call Us</h4>
+                                                    <p class="text-white/70">
+                                                        Main: +1 (555) 123-4567<br>
+                                                        Support: +1 (555) 987-6543
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="flex items-start gap-4">
+                                                <div class="w-12 h-12 bg-gradient-to-br from-accent to-primary rounded-xl flex items-center justify-center flex-shrink-0">
+                                                    <span class="material-symbols-outlined text-white">email</span>
+                                                </div>
+                                                <div>
+                                                    <h4 class="text-white font-semibold mb-1">Email Us</h4>
+                                                    <p class="text-white/70">
+                                                        info@fitnesscenter.com<br>
+                                                        support@fitnesscenter.com
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Hours -->
+                                    <div class="glass-effect rounded-3xl p-8">
+                                        <h3 class="text-white text-2xl font-bold mb-6">Hours of Operation</h3>
+                                        <div class="space-y-4">
+                                            <div class="flex justify-between items-center py-2 border-b border-white/10">
+                                                <span class="text-white/70">Monday - Friday</span>
+                                                <span class="text-white font-semibold">5:00 AM - 11:00 PM</span>
+                                            </div>
+                                            <div class="flex justify-between items-center py-2 border-b border-white/10">
+                                                <span class="text-white/70">Saturday</span>
+                                                <span class="text-white font-semibold">6:00 AM - 10:00 PM</span>
+                                            </div>
+                                            <div class="flex justify-between items-center py-2 border-b border-white/10">
+                                                <span class="text-white/70">Sunday</span>
+                                                <span class="text-white font-semibold">7:00 AM - 9:00 PM</span>
+                                            </div>
+                                            <div class="flex justify-between items-center py-2">
+                                                <span class="text-white/70">Holidays</span>
+                                                <span class="text-white font-semibold">8:00 AM - 6:00 PM</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Quick Actions -->
+                                    <div class="glass-effect rounded-3xl p-8">
+                                        <h3 class="text-white text-2xl font-bold mb-6">Quick Actions</h3>
+                                        <div class="space-y-4">
+                                            <button class="w-full flex items-center justify-between p-4 bg-white/5 hover:bg-white/10 rounded-xl transition-all duration-300 group">
+                                                <div class="flex items-center gap-3">
+                                                    <span class="material-symbols-outlined text-primary">calendar_today</span>
+                                                    <span class="text-white">Schedule a Tour</span>
+                                                </div>
+                                                <span class="material-symbols-outlined text-white/50 group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                                            </button>
+                                            
+                                            <button class="w-full flex items-center justify-between p-4 bg-white/5 hover:bg-white/10 rounded-xl transition-all duration-300 group">
+                                                <div class="flex items-center gap-3">
+                                                    <span class="material-symbols-outlined text-secondary">person_add</span>
+                                                    <span class="text-white">Free Trial Membership</span>
+                                                </div>
+                                                <span class="material-symbols-outlined text-white/50 group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                                            </button>
+                                            
+                                            <button class="w-full flex items-center justify-between p-4 bg-white/5 hover:bg-white/10 rounded-xl transition-all duration-300 group">
+                                                <div class="flex items-center gap-3">
+                                                    <span class="material-symbols-outlined text-accent">fitness_center</span>
+                                                    <span class="text-white">Personal Training Consultation</span>
+                                                </div>
+                                                <span class="material-symbols-outlined text-white/50 group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Map Section -->
+                        <section class="component-container relative" data-aos="fade-up" data-aos-delay="150">
+                            <div class="glass-effect rounded-3xl p-8 md:p-12 fade-in-up">
+                                <div class="text-center mb-8">
+                                    <h2 class="text-white text-3xl md:text-4xl font-bold tracking-tight mb-4">
+                                        Find <span class="gradient-text">Us</span>
+                                    </h2>
+                                    <p class="text-white/70 text-lg">
+                                        Located in the heart of the city, easily accessible by public transport and with ample parking.
+                                    </p>
+                                </div>
+                                
+                                <div class="aspect-[16/9] rounded-2xl overflow-hidden border border-white/10 shadow-2xl shadow-black/30">
+                                    <iframe class="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158857.83988677413!2d-0.26640361523905526!3d51.52873980501599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sin!4v1765142207544!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- FAQ Section -->
+                        <section class="component-container relative" data-aos="fade-up" data-aos-delay="200">
+                            <div class="text-center mb-16 fade-in-up">
+                                <span class="inline-block px-3 py-1 bg-primary/20 text-primary rounded-full text-sm font-medium mb-4">
+                                    Frequently Asked Questions
+                                </span>
+                                <h2 class="text-white text-4xl md:text-6xl font-bold tracking-tight mb-6">
+                                    Common <span class="gradient-text">Questions</span>
+                                </h2>
+                                <p class="text-white/70 text-lg max-w-3xl mx-auto leading-relaxed">
+                                    Find quick answers to the most common questions about our services and facilities.
+                                </p>
+                            </div>
+
+                            <div class="space-y-6 max-w-4xl mx-auto">
+                                <div class="glass-effect rounded-2xl p-6 fade-in-up">
+                                    <h3 class="text-white text-lg font-semibold mb-3">What are your membership options?</h3>
+                                    <p class="text-white/70">We offer Essential ($89/month), Premium ($149/month), and Elite ($299/month) memberships with varying levels of access and services.</p>
+                                </div>
+                                
+                                <div class="glass-effect rounded-2xl p-6 fade-in-up stagger-delay-1">
+                                    <h3 class="text-white text-lg font-semibold mb-3">Do you offer trial memberships?</h3>
+                                    <p class="text-white/70">Yes! We offer a 7-day free trial that gives you full access to our facilities and group classes.</p>
+                                </div>
+                                
+                                <div class="glass-effect rounded-2xl p-6 fade-in-up stagger-delay-2">
+                                    <h3 class="text-white text-lg font-semibold mb-3">What safety protocols do you have in place?</h3>
+                                    <p class="text-white/70">We maintain the highest safety standards with regular equipment maintenance, certified trainers, and comprehensive hygiene protocols.</p>
+                                </div>
+                                
+                                <div class="glass-effect rounded-2xl p-6 fade-in-up stagger-delay-3">
+                                    <h3 class="text-white text-lg font-semibold mb-3">Can I cancel my membership anytime?</h3>
+                                    <p class="text-white/70">Yes, we offer flexible membership options with no long-term commitments. You can cancel anytime with 30 days notice.</p>
+                                </div>
+                            </div>
+                        </section>
+                    </main>
+                    
+                    <div class="component-container" data-include="assets/components/footer.html"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 900,
+            once: true,
+            easing: 'ease-out-cubic'
+        });
+    </script>
+    <script src="assets/js/components.js"></script>
+</body>
+
+</html>
